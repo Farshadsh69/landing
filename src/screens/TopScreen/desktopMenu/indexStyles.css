@@ -1,0 +1,86 @@
+li {
+  list-style-type: none;
+  margin-right: 85px;
+}
+li a {
+  text-decoration: none;
+  font-size: small;
+  color: #637381;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Zone {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+.Zone::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  background-color: #fa541c;
+  left: 70px;
+  top: 15px;
+}
+.Zone a {
+  color: #212b36;
+}
+.liPage {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.liPage::after {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #fa541c;
+  left: -10px;
+  top: 8px;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 12px !important;
+  margin-left: 5px;
+  cursor: pointer;
+  
+}
+.ExpandMoreIcon{
+  color: #637381 !important;
+}
+.liPage a {
+  font-weight: 700;
+  color: #212b36;
+}
+
+.iconGlobal {
+  width: 19px;
+}
+.iconSearch {
+  width: 19px;
+
+}
+span{
+    color: #393e423d;
+}
+.btnLogin{
+background-color:transparent;
+border: none;
+font-size: 14px;
+font-weight: 700;
+color: #212B36;
+cursor: pointer;
+}
+.btnJoin{
+background-color: #212B36;
+color: #ffffff;
+font-size: 14px;
+padding: 6px 16px;
+border-radius: 8px;
+cursor: pointer;
+}

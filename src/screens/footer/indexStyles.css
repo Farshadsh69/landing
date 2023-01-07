@@ -1,0 +1,117 @@
+.container{
+}
+.divContainer{
+    padding-top: 70px;
+    border-top: 1px dotted #63738142;
+
+}
+.zone{
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    
+}
+.zone::after{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #FA541C;
+    top:14px !important;
+    left: 64px;
+}
+
+.subZone{
+    font-size: 13px;
+    font-weight: bold;
+    color: #637381;
+
+}
+.divCall{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.call{
+    color: black !important;
+    margin: 0px 10px ;
+}
+.GridLeft{
+
+}
+.GridBetween{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+}
+.GridRight{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+}
+.iconEmail{
+    color: #637381 !important;
+}
+.email{
+    color:#637381;
+    margin: 0px 5px ;
+}
+.divEmail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px ;
+}
+.year{
+    color:#637381  ;
+    font-size: 13px;
+ 
+}
+.divYear{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.divHelp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.service{
+margin: 0px 10px ;
+font-size: 13px ;
+
+color: #637381;
+}
+.help{
+  margin: 0px 10px ;
+  font-size: 13px ;
+  
+  color: #637381;  
+}
+.input{
+    width: 310px;
+    height: 48px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+    padding: 0px 10px ;
+    outline: none;
+    border: none;
+}
+.btn{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff !important;
+    background-color: #FA541C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

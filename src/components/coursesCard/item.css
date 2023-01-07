@@ -1,0 +1,124 @@
+.rootItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.rootItem::-webkit-scrollbar {
+  display: "none";
+}
+
+.img {
+  width: 362;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.content {
+  padding-left: 15px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.divPrice {
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "cursive";
+}
+
+.Management {
+  color: #fa541c;
+  font-weight: bold;
+  font-size: 12px;
+}
+.divExpiredPrice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212b36;
+}
+.expired {
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #919eab;
+  text-decoration: line-through;
+}
+.title {
+  width: 320px;
+}
+.divScore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "cursive";
+}
+.css-i4bv87-MuiSvgIcon-root {
+  color: #ffc81a;
+  font-size: 22px !important;
+}
+.starSub {
+  border-right: 1px solid #919eab;
+  padding-right: 15px;
+}
+.starSub2 {
+  padding-left: 15px;
+}
+.avatar {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #212b36;
+  padding-bottom: 20px;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  border-color: #919eab61;
+}
+.avatar a {
+  font-size: 15px;
+  margin: 0px 8px;
+}
+.imgAvatar {
+  margin: 0px 10px;
+}
+.hours {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15px;
+}
+.hours p {
+  font-size: 14px;
+  color: #919eab;
+  padding: 0px 10px;
+}
+.net {
+  color: #919eab;
+}
+
+@media only screen and (max-width: 390px) {
+  .root {
+    margin-top: 100px;
+  }
+  .img {
+    width: 250px;
+  }
+  .title {
+    width: 240px;
+  }
+  .divPrice {
+    width: 220px;
+  }
+  .divScore {
+    width: 220px;
+  }
+
+}

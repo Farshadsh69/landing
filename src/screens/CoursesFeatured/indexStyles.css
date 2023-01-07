@@ -1,0 +1,46 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  padding-bottom: 120px;
+}
+
+.subtitle {
+  color: #637381;
+}
+.divSubtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.Vector1 {
+  width: 15px;
+  margin: 0px 15px;
+}
+.divItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 390px) {
+  .root{
+    margin-top: 100px;
+
+  }
+  .subtitle{
+    font-size: 12px;
+    text-align:center;
+  }
+  .divVector{
+    display: flex;
+  }
+  .divItem{
+    overflow:scroll;
+    margin-top: 5;
+  }
+
+}
+
